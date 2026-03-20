@@ -1,0 +1,14 @@
+cat << 'EOF' > .gitignore
+main
+*.o
+*.so
+*.dylib
+*.a
+build/
+bin/
+.DS_Store
+._*
+__MACOSX/
+.vscode/
+.idea/
+EOF
